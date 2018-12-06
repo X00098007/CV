@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <h1>My First Bootstrap Page</h1>
+  
+  
+  <div class="row">
+	<div class ="col-xs-6">.col-xs-6</div>
+	<div class ="col-xs-6">.col-xs-6</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-sm-6">.col-sm-6</div>
+	<div class ="col-sm-6">.col-sm-6</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-md-3">.col-md-6</div>
+	<div class ="col-md-3">.col-md-6</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-xs-4">.col-xs-4</div>
+	<div class ="col-xs-2">.col-xs-2</div>
+	<div class ="col-xs-4">.col-xs-4</div>
+	<div class ="col-xs-2">.col-xs-2</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-sm-4">.col-sm-4</div>
+	<div class ="col-sm-4">.col-sm-4</div>
+	<div class ="col-sm-4">.col-sm-4</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-md-4 col-md-offset-4"> Demonstrating offset class.col-sm-4</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-sm-12"> 
+	<h1 class="visible-sm">This content will only be visible on the small screen</h1>
+	</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-sm-12"> 
+	<h3 class="visible-xs">Extra small</h3>
+	<h3 class="visible-sm">Small screen</h3>
+	<h3 class="visible-md">Medium screen</h3>
+	<h3 class="visible-lg">Large screen</h3>
+	</div>
+  </div>
+  
+  <div class="row">
+	<div class ="col-sm-12"> 
+	<h1 class="hidden-md">This content will be hidden on the medium screen</h1>
+	</div>
+  </div>
+  
+  
+  <p>This is some text.</p> 
+</div>
+
+<div class="container">
+	<h2>Basic Table</h2>
+		<table class="table table-responsive">
+			<thead>
+				<tr>
+					<th>First</th>
+					<th>Last</th>
+					<th>Phone</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Amanda</td>
+					<td>Murphy</td>
+					<td>087 1234567</td>
+				</tr>
+				<tr>
+					<td>David</td>
+					<td>Murphy</td>
+					<td>087 1234567</td>
+				</tr>
+				<tr>
+					<td>James</td>
+					<td>Murphy</td>
+					<td>087 1234567</td>
+				</tr>
+				<tr>
+					<td>Dylan</td>
+					<td>Murphy</td>
+					<td>087 1234567</td>
+				</tr>
+				<tr>
+					<td>Sofia</td>
+					<td>Murphy</td>
+					<td>087 1234567</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+
+<div class="container">
+	<h3>Thumbnail</h3>
+	<img src="AmandaMurphyProfilePhoto.jpg" class="img-rounded" alt="Amanda" width="287" height="175">
+</div>  
+
+<a href="#" class="btn btn-primary" role="button">Link Button</a>
+<button type="button" class="btn btn-primary btn-lg">Large</button>
+<button type="button" class="btn btn-primary btn-md">Medium</button>
+<button type="button" class="btn btn-primary btn-sm">Small</button>
+<button type="button" class="btn btn-primary btn-xs">Extra Small</button>
+
+<button type="button" class="btn btn-primary active">Active Button</button>
+<button type="button" class="btn btn-primary disabled">Disabled Button</button>
+
+<input type="button" class="btn btn-primary" value="Input Button">
+<input type="button" class="btn btn-primary" value="Submit Button">
+
+
+<div class-"btn-group">
+	<button type="button" class="btn btn-primary">Honda</button>
+	<button type="button" class="btn btn-primary">Nissan</button>
+	<button type="button" class="btn btn-primary">Toyota</button>
+	<button></button>
+</div>
+
+<div class-"dropdown">
+	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Menu<span class="caret"></span></button>
+	<ul class="dropdown-menu">
+		<li><a href="#">Honda</a></li>
+		<li><a href="#">Nissan</a></li>
+		<li><a href="#">Toyota</a></li>
+	</ul>
+</div>
+
+<div class="container-fluid">
+<br/>
+	<div class="alert alert-success">
+	<a href="#" class="close" data-dismiss="alert" aris-label="close">&times;</a>
+		<strong>Success!</strong> Indicates a successful section
+	</div>
+	
+	<div class="alert alert-danger">
+	<a href="#" class="close" data-dismiss="alert" aris-label="close">&times;</a>
+		<strong>Danger!</strong> Indicates section to bring to attention
+	</div>
+	
+</div>
+
+<div class="container-fluid">
+	<ul class="pagination">
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li class="disabled"><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+	</ul>	
+
+</div>
+
+<div class="container-fluid">
+	<ul class="pager">
+		<li class="previous"><a href="#">Previous</a></li>
+		<li class="next"><a href="#">Next</a></li>
+	</ul>	
+
+</div>
+
+
+<div class="container-fluid">
+	<h2>Glyphicon Examples</h2>
+	<p>Envelope Icon: <span class="glyphicon glyphicon-envelope"></span></p>
+	<p>Envelope Icon as a link: <a href="#"><span class="glyphicon glyphicon-envelope"></span></a> </p>
+	<p>Search Icon: <span class="glyphicon glyphicon-search"></span></p>
+	<p>Search Icon on a Button:
+		<button type="button" class="btn btn-default">
+			<span class="glyphicon glyphicon-search"></span> Search
+		</button>
+	</p>
+	
+	<p>Print Icon: <span class="glyphicon glyphicon-print"></span></p>
+	<p>Print Icon on a Styled Link Button:
+		<a href="#" class="btn btn-success btn-lg">
+			<span class="glyphicon glyphicon-print"></span> Print
+		</a>
+	</p>
+	
+</div>
+
+
+<div class="container">
+	<div class="jumbotron">
+	<h1>Bootstrap Tutorial</h1>
+	<p>Bootstrap is the most popular HTML, CSS ...</p>
+	</div>
+	<p>Some text</p>
+	<p>More text</p>
+</div>
+
+<a href="#demo" data-toggle="collapse">Collapsible</a>
+<div id="demo" class="collapse">
+Lorem ipsum dolor text...
+</div>
+
+
+<div id="demo" class="collapse in">
+Lorem ipsum dolor text...
+</div>
+
+
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
