@@ -1,0 +1,26 @@
+h1{
+	.col-sm-12{
+	height: 100px;
+	background-colour: blue;
+	colour: white;
+	text-align: center;
+	border: 2px solid black;
+	}
+	
+	.col-sm-6{
+	height: 100px;
+	background-colour: yellow;
+	colour: black;
+	text-align: center;
+	border: 2px solid black;
+	}
+	
+	.col-sm-3{
+	height: 100px;
+	background-colour: green;
+	colour: white;
+	text-align: center;
+	border: 2px solid black;
+	}
+}
+	
